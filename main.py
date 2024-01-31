@@ -10,7 +10,8 @@ from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 import requests
 
 # Заменить на токен
-TELEGRAM_BOT_TOKEN = '6190819310:AAEa6zugVxVm-09Li4lhcjEo_VxJQ5xPcoI'
+TELEGRAM_BOT_TOKEN = 'token'
+# можешь не пробовать юзать токен который был в прошлом коммите, всё равно он не рабочий :)
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text('Привет! Отправь мне GitHub имя пользователя, чтобы получить информацию о нем.')
